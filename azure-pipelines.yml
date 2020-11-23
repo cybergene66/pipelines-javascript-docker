@@ -9,7 +9,7 @@ trigger:
   - pool:
     vmImage: 'Ubuntu-16.04'
   
-  variables:
+  - variables:
     imageName: 'pipelines-javascript-docker'
   
   steps:
